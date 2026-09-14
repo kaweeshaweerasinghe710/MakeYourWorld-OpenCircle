@@ -1,9 +1,7 @@
 import type { WorldObject } from "@/schemas";
 
-/**
- * [CONTRIBUTOR ZONE - Commit 1]
- * Single starting item for Growing City.
- */
+
+
 export const cityObjects: WorldObject[] = [
   {
     id: "street-lamp",
@@ -29,4 +27,13 @@ export const cityObjects: WorldObject[] = [
       githubUsername: "Shashini543",
     },
   },
+
+  {
+  id: "paper-tram", // e.g. "paper-tram-alex" (lowercase kebab-case),
+  asset: "/assets/worlds/growing-city/paper-tram.svg",
+  contributor: {
+    displayName: "kaweesha",
+    githubUsername: "kaweeshaweerasinghe710",
+  },
+},
 ];
